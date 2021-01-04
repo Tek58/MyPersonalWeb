@@ -1,3 +1,7 @@
+/* body{
+    background-image: url(../images/desert.jpg);
+    font-family: 'Lora', serif;
+}
 .footer{
     background-color:rgb(18, 17, 63) ;
     color: white;
@@ -5,4 +9,7 @@
 }
 #foot{
     margin-left: 2.5rem;
+} */
+.big-banner{
+    background-image: url(../images/2.jpg);
 }
