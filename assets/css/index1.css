@@ -1,0 +1,44 @@
+body{
+    background-color: #333333;
+    /* background-color: rgba(51,51,51, 0.54); */
+    color: white;
+
+}
+.header{
+    background-image: url(../images/ben-kolde-FaPxZ88yZrw-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(51,51,51, 0.54);
+    height: 40rem;
+    background-blend-mode: cover;
+}
+.font{
+    font-weight: 400;
+    color: white;
+    height: 40rem;
+}
+.first{
+    background-image: url(../images/VidCon-Profile-1025x1024-250x249.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    background-position: center top;
+}
+
+.videos{
+    background-color: #333333;
+    background-size: cover;
+    background-blend-mode: multiply;
+    /* background-image: url(../images/); */
+    font-family: "Open Sans";
+    font-weight: 700;
+    /* width: 31.2%; */
+}
+
+.second{
+    background-image: url(../images/email-promo-450x277\(1\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    background-position: center top;
+}
