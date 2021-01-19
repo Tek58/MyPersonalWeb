@@ -1,15 +1,112 @@
-/* body{
-    background-image: url(../images/desert.jpg);
-    font-family: 'Lora', serif;
-}
-.footer{
-    background-color:rgb(18, 17, 63) ;
+
+body{
+    background-color: #333333;
+    font-family: 'Gentium Book Basic', serif;
     color: white;
-    padding-bottom: 30px;
 }
-#foot{
-    margin-left: 2.5rem;
-} */
-.big-banner{
-    background-image: url(../images/2.jpg);
+p{
+    font-size: 17px;
+}
+
+.header{
+    background-image: url(../images/f.jpg);
+    background-color: rgba(0, 0, 0, 0.4);
+    min-height: 500px;
+    padding-top: 15%;
+    padding-bottom: 10%;
+    margin-top: -4rem;
+    height: 38rem;
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+    
+@media screen and (max-width: 650px) {
+    .int {
+        font-size: 60px;
+    }
+  } 
+@media screen and (max-width: 575px) {
+    .vid {
+        padding-bottom: 1rem;
+    }
+  }  
+  @media screen and (max-width: 770px) {
+    .movie {
+        padding-bottom: 1rem;
+    }
+  } 
+
+.intro{
+    width: 50%;
+}
+.font{
+    font-weight: 400;
+    color: white;
+
+}
+.vidImg{
+    height: 15rem;
+    width: 25rem; 
+}
+@media screen and (max-width: 575px) {
+    .vidImg {
+        padding-left: 5rem;
+    }
+  } 
+.movie{
+    height: 20rem;
+    width: 50rem;
+}
+button:hover{
+    
+    background-color: rgb(42, 51, 59);
+    color: rgb(30, 30, 48);
+}
+.first{
+    background-image: url(../images/a.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    background-position: center top;
+    height: auto;
+}
+.firstCol , .secondCol{
+    padding-top: 5rem;
+    padding-left: 6rem;
+    padding-bottom: 5rem;
+    padding-right: 6rem;
+
+}
+.lastCol{
+    padding-left: 6rem;
+    padding-right: 6rem;
+}
+hr{
+    border:solid white;
+    width: 5%;
+}
+
+.videos{
+    background-color: #333333;
+    background-size: cover;
+    background-blend-mode: multiply;
+    font-family: "Open Sans";
+    font-weight: 700;
+}
+
+
+.second{
+    background-image: url(../images/the\ power\ off\ now.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    background-position: center top;
+    height: auto;
 }
